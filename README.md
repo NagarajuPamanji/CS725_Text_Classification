@@ -43,20 +43,12 @@ The model struggles most with semantically similar categories, such as *Religion
 * **Logistic Regression:** Optimized using the L-BFGS solver with a maximum of 1000 iterations for convergence.
 
 ## 4. How to Run the Code
+The code is provided in a Jupyter Notebook for easy execution.
 
-### Prerequisites
-Ensure you have Python installed along with the following libraries:
+1.  Open **`Text_Classification.ipynb`** in Google Colab or Jupyter Lab.
+2.  Run all cells to download the dataset, train the models, and generate the results.
+
+Alternatively, you can run the Python script:
 ```bash
-pip install numpy scikit-learn matplotlib seaborn
-Running the Script
-Clone this repository:
-
-Bash
-
-git clone [https://github.com/NagarajuPamanji/CS725_Text_Classification.git](https://github.com/NagarajuPamanji/CS725_Text_Classification.git)
-cd CS725_Text_Classification
-Run the Python script:
-
-Bash
-
 python text_classification.py
+
