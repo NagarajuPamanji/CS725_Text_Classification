@@ -48,3 +48,20 @@ The model struggles most with semantically similar categories, such as *Religion
 Ensure you have Python installed along with the following libraries:
 ```bash
 pip install numpy scikit-learn matplotlib seaborn
+
+Running the Script
+Clone this repository:
+
+Bash
+
+git clone [https://github.com/NagarajuPamanji/CS725_Text_Classification.git](https://github.com/NagarajuPamanji/CS725_Text_Classification.git)
+cd CS725_Text_Classification
+Run the Python script:
+
+Bash
+
+python text_classification.py
+5. References
+Mitchell, T. M. (1997). Machine Learning. McGraw-Hill.
+
+Pedregosa et al. (2011). Scikit-learn: Machine Learning in Python. JMLR.
